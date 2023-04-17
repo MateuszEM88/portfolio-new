@@ -17,7 +17,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="skills flex flex-col pt-20 items-center  justify-center text-primaryText dark:text-darkText dark:bg-mainBgDark">
+    <div className="skills flex flex-col py-20 items-center  justify-center text-primaryText dark:text-darkText dark:bg-mainBgDark">
       <h1 className="text-4xl mb-8" data-aos="fade-up" data-aos-duration="1000">
         <pre>&lt;skills&gt;</pre>
       </h1>

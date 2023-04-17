@@ -1,14 +1,24 @@
 import "./App.css";
-import { Hero, Portfolio, Skills, Navbar } from "./components/index.js";
+import {
+  Hero,
+  Portfolio,
+  Skills,
+  Navbar,
+  Contact,
+} from "./components/index.js";
 
 function App() {
   return (
-    <div className="w-screen h-full flex items-center justify-center bg-mainBg dark:bg-mainBgDark">
-      <div className="max-sm:w-screen h-full shadow-xl shadow-gray-800 dark:border-borderDark bg-containerBg dark:bg-mainBgDark  rounded-lg ">
-        <Navbar />
-        <Hero id="home" />
+    <div className="w-full h-full flex items-center justify-center">
+      <div className="dark:border-borderDark bg-containerBg dark:bg-mainBgDark  rounded-lg ">
+        <div className="h-screen">
+          <Navbar />
+          <Hero id="home" />
+        </div>
+
         <Portfolio id="portfolio" />
         <Skills id="skills" />
+        <Contact id="contact" />
       </div>
     </div>
   );

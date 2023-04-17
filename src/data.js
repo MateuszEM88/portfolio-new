@@ -1,5 +1,5 @@
 import blog from "./components/img/blog.png";
-import portfolio from "./components/img/portfolio.jpg";
+import portfolio from "./components/img/portfolio.png";
 
 const projects = [
   {
