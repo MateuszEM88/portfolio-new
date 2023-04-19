@@ -24,7 +24,7 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <div className="w-full bg-opacity-50 py-6 max-md:border-b-2 border-indigo-500 max-md:h-24 max-md:sticky absolute max-md:top-0 max-md:dark:bg-mainBgDark z-20 max-md:bg-white">
+    <div className="w-full bg-opacity-70 py-6 max-md:h-24 max-md:sticky absolute max-md:top-0 max-md:dark:bg-mainBgDark z-20 max-md:bg-white">
       <div
         className={`max-md:w-screen max-md:h-screen fixed backdrop-blur-md ${
           open ? "visible" : "hidden"
@@ -117,12 +117,12 @@ const Navbar = () => {
           />
         </div>
         <div
-          className={`z-10 fixed md:hidden transform duration-700 bg-white dark:bg-mainBgDark overflow-y-hidden flex flex-col top-0 right-0 w-full h-full justify-end text-center ${
+          className={`z-10 fixed md:hidden transform duration-700 bg-white dark:bg-mainBgDark overflow-y-hidden flex flex-col top-0 right-0 w-full h-screen justify-end text-center ${
             open ? "flex" : "-translate-y-full"
           }`}
         >
-          <ul className="flex flex-col font-semibold dark:text-darkText  text-2xl items-center cursor-pointer">
-            <li className=" py-4 text-3xl font-semibold h-20">
+          <ul className="flex flex-col font-semibold dark:text-darkText h-1/2  text-2xl items-center cursor-pointer">
+            <li className=" py-4 text-3xl font-semibold">
               <Link
                 onClick={handleClick}
                 to="home"
@@ -135,7 +135,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className=" py-4 text-3xl font-semibold h-20">
+            <li className=" py-4 text-3xl font-semibold">
               <Link
                 onClick={handleClick}
                 to="portfolio"
@@ -148,7 +148,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className=" py-4 text-3xl font-semibold h-20">
+            <li className=" py-4 text-3xl font-semibold">
               <Link
                 onClick={handleClick}
                 to="skills"
@@ -160,7 +160,7 @@ const Navbar = () => {
                 Skills
               </Link>
             </li>
-            <li className=" py-4 text-3xl font-semibold h-20">
+            <li className=" py-4 text-3xl font-semibold">
               <Link
                 onClick={handleClick}
                 to="contact"
@@ -173,7 +173,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className=" py-4 text-3xl font-semibold h-20">
+            <li className=" py-4 text-3xl font-semibold">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -183,17 +183,17 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <div className="grid grid-cols-1 md:grid-cols-4 wrap w-full">
-            <div className="flex items-center justify-center  h-20 bg-linkedin text-2xl">
+          <div className="grid grid-cols-1 md:grid-cols-4 wrap h-1/2 w-full">
+            <div className="flex items-center justify-center  h-full bg-linkedin text-2xl">
               <p className="text-3xl font-semibold text-slate-200">Linkedin</p>
             </div>
-            <div className="flex items-center justify-center  h-20 bg-github text-2xl">
+            <div className="flex items-center justify-center  h-full bg-github text-2xl">
               <p className="text-3xl font-semibold text-slate-200">Twitter</p>
             </div>
-            <div className="flex items-center justify-center  h-20 bg-twitter text-2xl">
+            <div className="flex items-center justify-center  h-full bg-twitter text-2xl">
               <p className="text-3xl font-semibold text-slate-200">Github</p>
             </div>
-            <div className="flex items-center justify-center  h-20 bg-indigo-500 ">
+            <div className="flex items-center justify-center  h-full bg-indigo-500 ">
               <p className="text-3xl font-semibold text-slate-200">Email</p>
             </div>
           </div>
