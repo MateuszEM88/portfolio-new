@@ -117,12 +117,12 @@ const Navbar = () => {
           />
         </div>
         <div
-          className={`z-10 fixed md:hidden transform duration-700 bg-white dark:bg-mainBgDark overflow-y-hidden flex flex-col top-0 right-0 w-full h-screen justify-end text-center ${
+          className={`z-10 absolute md:hidden transform duration-700 bg-white dark:bg-mainBgDark  flex flex-col top-0 right-0 w-screen h-screen justify-around text-center ${
             open ? "flex" : "-translate-y-full"
           }`}
         >
-          <ul className="flex flex-col font-semibold dark:text-darkText h-1/2  text-2xl items-center cursor-pointer">
-            <li className=" py-4 text-3xl font-semibold">
+          <ul className="flex flex-col font-semibold dark:text-darkText h-1/3  text-2xl items-center cursor-pointer">
+            <li className=" py-4 text-2xl font-semibold">
               <Link
                 onClick={handleClick}
                 to="home"
@@ -135,7 +135,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className=" py-4 text-3xl font-semibold">
+            <li className=" py-4 text-2xl font-semibold">
               <Link
                 onClick={handleClick}
                 to="portfolio"
@@ -148,7 +148,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className=" py-4 text-3xl font-semibold">
+            <li className=" py-4 text-2xl font-semibold">
               <Link
                 onClick={handleClick}
                 to="skills"
@@ -160,7 +160,7 @@ const Navbar = () => {
                 Skills
               </Link>
             </li>
-            <li className=" py-4 text-3xl font-semibold">
+            <li className=" py-4 text-2xl font-semibold">
               <Link
                 onClick={handleClick}
                 to="contact"
@@ -173,7 +173,7 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li className=" py-4 text-3xl font-semibold">
+            <li className=" py-4 text-2xl font-semibold">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -183,19 +183,46 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <div className="grid grid-cols-1 md:grid-cols-4 wrap h-1/2 w-full">
-            <div className="flex items-center justify-center  h-full bg-linkedin text-2xl">
-              <p className="text-3xl font-semibold text-slate-200">Linkedin</p>
-            </div>
-            <div className="flex items-center justify-center  h-full bg-github text-2xl">
-              <p className="text-3xl font-semibold text-slate-200">Twitter</p>
-            </div>
-            <div className="flex items-center justify-center  h-full bg-twitter text-2xl">
-              <p className="text-3xl font-semibold text-slate-200">Github</p>
-            </div>
-            <div className="flex items-center justify-center  h-full bg-indigo-500 ">
-              <p className="text-3xl font-semibold text-slate-200">Email</p>
-            </div>
+          <div className="grid grid-cols-1 md:grid-cols-4 wrap h-1/3 w-full">
+            <a
+              href="https://www.linkedin.com/in/mateusz-marek-b81272247/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex items-center justify-center  h-full bg-linkedin text-2xl">
+                <p className="text-2xl font-semibold text-slate-200">
+                  Linkedin
+                </p>
+              </div>
+            </a>
+            <a
+              href="https://twitter.com/rozprogramowany"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <div className="flex items-center justify-center  h-full bg-github text-2xl">
+                <p className="text-2xl font-semibold text-slate-200">Twitter</p>
+              </div>
+            </a>
+            <a
+              href="https://github.com/MateuszEM88"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex items-center justify-center  h-full bg-twitter text-2xl">
+                <p className="text-2xl font-semibold text-slate-200">Github</p>
+              </div>
+            </a>
+            <a
+              href="mailto:mateuszEM1988@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex items-center justify-center  h-full bg-indigo-500 ">
+                <p className="text-2xl font-semibold text-slate-200">Email</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
