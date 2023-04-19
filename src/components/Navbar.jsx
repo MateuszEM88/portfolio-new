@@ -117,7 +117,7 @@ const Navbar = () => {
           />
         </div>
         <div
-          className={`z-10 absolute md:hidden transform duration-700 bg-white dark:bg-mainBgDark  flex flex-col top-0 right-0 w-screen h-screen justify-around text-center ${
+          className={`z-10 overflow-y-hidden fixed md:hidden transform duration-700 bg-white dark:bg-mainBgDark  flex flex-col top-0 right-0 w-screen h-screen justify-around text-center ${
             open ? "flex" : "-translate-y-full"
           }`}
         >

@@ -3,7 +3,7 @@ import AnimationSpan from "./AnimationSpan";
 
 const Hero = () => {
   return (
-    <div className="home flex max-md:pt-16 flex-col w-screen h-full text-primaryText dark:text-darkText dark:bg-mainBgDark bg-cover bg-grayscale">
+    <div className="home flex max-md:pt-16 flex-col h-full text-primaryText dark:text-darkText dark:bg-mainBgDark">
       <div className="flex h-full flex-col md:flex-row  justify-center items-center">
         <div className="flex h-full justify-center max-md:justify-start  flex-col ">
           <h3 className="inline-flex text-3xl p-2 py-4 font-semibold overflow-x-hidden animate-type whitespace-nowrap text-brand-accent ">

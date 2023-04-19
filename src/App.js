@@ -9,7 +9,7 @@ import {
 
 function App() {
   return (
-    <div className="w-full h-full flex items-center justify-center">
+    <div className="w-full h-full flex items-center justify-center overflow-x-hidden">
       <div className="dark:border-borderDark bg-containerBg dark:bg-mainBgDark  ">
         <div className="h-screen">
           <Navbar />
