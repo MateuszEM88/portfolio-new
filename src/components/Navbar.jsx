@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { disableBodyScroll, enableBodyScroll } from "body-scroll-lock";
 import Hamburger from "hamburger-react";
 import { Link } from "react-scroll";
 
@@ -10,6 +11,14 @@ const Navbar = () => {
   const [theme, setTheme] = useState(localStorage.getItem("theme"));
 
   const handleClick = () => setOpen(!open);
+
+  open ? disableBodyScroll(document) : enableBodyScroll(document);
+
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    }
+  });
 
   useEffect(() => {
     if (theme === "dark") {
