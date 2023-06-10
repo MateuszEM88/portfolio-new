@@ -5,6 +5,7 @@ import {
   Skills,
   Navbar,
   Contact,
+  Works,
 } from "./components/index.js";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
           <Hero id="home" />
         </div>
 
-        <Portfolio id="portfolio" />
+        <Works id="portfolio" />
         <Skills id="skills" />
         <Contact id="contact" />
       </div>

@@ -40,19 +40,7 @@ module.exports = {
           "100%": { opacity: 1, zIndex: 0 },
         },
 
-        type: {
-          "0%": { width: "0ch" },
-          "10%": { width: "1ch" },
-          "20%": { width: "2ch" },
-          "30%": { width: "3ch" },
-          "40%": { width: "4ch" },
-          "50%": { width: "5ch" },
-          "60%": { width: "6ch" },
-          "70%": { width: "7ch" },
-          "80%": { width: "8ch" },
-          "90%": { width: "9ch" },
-          "100%": { width: "9.5ch" },
-        },
+  
       },
       animation: {
         fadeIn: "fade-in 1s ease-in-out forwards",

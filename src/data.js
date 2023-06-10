@@ -1,24 +1,24 @@
-import blog from "./components/img/blog.png";
-import portfolio from "./components/img/portfolio.png";
-import countries from "./components/img/countries.png";
+import countries from "./components/img/Group 2.png";
+import portfolio from "./components/img/Group 1.png";
+import blog from "./components/img/Group 3.png";
 
 const projects = [
   {
     id: 1,
     name: "My personal blog.",
-    tech: ["Html", "Css", "Tailwind.css", "React", "Next.js", "GraphQL"],
+    tech: ["HTML", "CSS", "Tailwind", "React", "Next.js", "GraphQL"],
     img: `${blog}`,
   },
   {
     id: 2,
     name: "My portfolio site.",
-    tech: ["Html", "Css", "Tailwind.css", "React"],
+    tech: ["HTML", "CSS", "Tailwind", "React"],
     img: `${portfolio}`,
   },
   {
     id: 3,
     name: "Countries APP",
-    tech: ["Html", "Css", "Tailwind.css", "React"],
+    tech: ["HTML", "CSS", "Tailwind", "React"],
     img: `${countries}`,
   },
 ];

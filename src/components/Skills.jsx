@@ -10,8 +10,12 @@ import react from "./img/react.png";
 import git from "./img/git.png";
 import express from "./img/express.png";
 import redux from "./img/redux.png";
+import node from "./img/node.png";
+import mongodb from "./img/mongodb.png";
 
 const Skills = () => {
+  const aos_duration = 400;
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -22,82 +26,178 @@ const Skills = () => {
         <pre>&lt;skills&gt;</pre>
       </h1>
 
-      <div className="w-full flex flex-col lg:flex-row mb-8 justify-around">
-        <div className="flex flex-col max-sm:w-full w-4/5 mx-auto  justify-around items-center rounded-lg">
-          <div className="flex flex-row flex-wrap justify-around w-full h-3/4 p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-4">
+        <div className="flex flex-col m-4 justify-center items-center">
+          <img
+            data-aos="flip-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration={aos_duration}
+            className="h-16 w-16 m-2"
+            src={html}
+            alt="html"
+          />
+          <p
+            className="text-xl font-bold p-4"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            HTML5
+          </p>
+          <p data-aos="fade-up" data-aos-duration="1000">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            recusandae dolor repellendus commodi quos natus corporis fugiat id
+            aperiam similique?
+          </p>
+        </div>
+        <div className="flex flex-col m-4 justify-center items-center">
+          <div className="flex flex-row justfiy-center items-center">
             <img
-              data-aos="fade-right"
+              data-aos="flip-right"
               data-aos-easing="ease-in-sine"
-              data-aos-duration="100"
-              className="h-16 w-16 m-2"
-              src={html}
-              alt="html"
-            />
-            <img
-              data-aos="fade-right"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="200"
+              data-aos-duration={aos_duration}
               className="h-16 w-16 m-2"
               src={css}
               alt="css"
             />
             <img
-              data-aos="fade-right"
+              data-aos="flip-right"
               data-aos-easing="ease-in-sine"
-              data-aos-duration="300"
-              className="h-16 w-16 m-2"
-              src={sass}
-              alt="sass"
-            />
-            <img
-              data-aos="fade-right"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="400"
+              data-aos-duration={aos_duration}
               className="h-16 w-16 m-2"
               src={tailwind}
               alt="tailwind"
             />
             <img
-              data-aos="fade-right"
+              data-aos="flip-right"
               data-aos-easing="ease-in-sine"
-              data-aos-duration="500"
+              data-aos-duration={aos_duration}
               className="h-16 w-16 m-2"
-              src={javascript}
-              alt="javascript"
+              src={sass}
+              alt="sass"
             />
+          </div>
+          <p
+            className="text-xl font-bold p-4"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            CSS3 + TAILWIND + SASS
+          </p>
+          <p data-aos="fade-up" data-aos-duration="1000">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            recusandae dolor repellendus commodi quos natus corporis fugiat id
+            aperiam similique?
+          </p>
+        </div>
+        <div className="flex flex-col m-4 justify-center items-center">
+          <img
+            data-aos="flip-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration={aos_duration}
+            className="h-16 w-16 m-2"
+            src={javascript}
+            alt="javascript"
+          />
+          <p
+            className="text-xl font-bold p-4"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            JavaScript
+          </p>
+          <p data-aos="fade-up" data-aos-duration="1000">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            recusandae dolor repellendus commodi quos natus corporis fugiat id
+            aperiam similique?
+          </p>
+        </div>
+        <div className="flex flex-col m-4 justify-center items-center">
+          <div className="flex flex-row justfiy-center items-center">
             <img
-              data-aos="fade-right"
+              data-aos="flip-right"
               data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
+              data-aos-duration={aos_duration}
               className="h-16 w-16 m-2"
               src={react}
               alt="react"
             />
             <img
-              data-aos="fade-right"
+              data-aos="flip-right"
               data-aos-easing="ease-in-sine"
-              data-aos-duration="700"
-              className="h-16 w-16 m-2"
-              src={git}
-              alt="git"
-            />
-            <img
-              data-aos="fade-right"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="800"
-              className="h-16 w-16 m-2"
-              src={express}
-              alt="github"
-            />
-            <img
-              data-aos="fade-right"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="900"
+              data-aos-duration={aos_duration}
               className="h-16 w-16 m-2"
               src={redux}
-              alt="npm"
+              alt="redux"
             />
           </div>
+
+          <p
+            className="text-xl font-bold p-4"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            React + Redux
+          </p>
+          <p data-aos="fade-up" data-aos-duration="1000">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            recusandae dolor repellendus commodi quos natus corporis fugiat id
+            aperiam similique?
+          </p>
+        </div>
+        <div className="flex flex-col m-4 justify-center items-center">
+          <div className="flex flex-row justfiy-center items-center">
+            <img
+              data-aos="flip-right"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration={aos_duration}
+              className="h-16 w-16 m-2"
+              src={node}
+              alt="node"
+            />
+            <img
+              data-aos="flip-right"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration={aos_duration}
+              className="h-16 w-16 m-2"
+              src={express}
+              alt="express"
+            />
+          </div>
+
+          <p
+            className="text-xl font-bold p-4"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            Node + Express
+          </p>
+          <p data-aos="fade-up" data-aos-duration="1000">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            recusandae dolor repellendus commodi quos natus corporis fugiat id
+            aperiam similique?
+          </p>
+        </div>
+        <div className="flex flex-col m-4 justify-center items-center">
+          <img
+            data-aos="flip-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration={aos_duration}
+            className="h-16 w-16 m-2"
+            src={mongodb}
+            alt="mongodb"
+          />
+          <p
+            className="text-xl font-bold p-4"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            MongoDB
+          </p>
+          <p data-aos="fade-up" data-aos-duration="1000">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            recusandae dolor repellendus commodi quos natus corporis fugiat id
+            aperiam similique?
+          </p>
         </div>
       </div>
     </div>

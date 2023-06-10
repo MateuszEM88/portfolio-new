@@ -9,7 +9,7 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <div className="portfolio  flex flex-col items-center justify-around text-primaryText dark:text-darkText dark:bg-mainBgDark">
+    <div className="portfolio pt-6  flex flex-col items-center justify-around text-primaryText dark:text-darkText dark:bg-mainBgDark">
       <h1 className="text-4xl mb-8" data-aos="fade-up" data-aos-duration="1000">
         <pre>&lt;projects&gt;</pre>
       </h1>
@@ -30,10 +30,10 @@ const Portfolio = () => {
                 data-aos="fade-left"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="500"
-                className="w-2/5 absolute max-md:w-full max-md:h-full max-md:px-4 md:right-12 md:my-auto"
+                className=" absolute h-full md:w-3/4 lg:w-1/2 max-md:w-full max-md:px-4 md:mr-12 px-4"
               >
-                <div className="group max-md:opacity-80 max-md:outline max-md:outline-indigo-700  w-full bg-mainBg dark:bg-containerDark md:rounded-lg md:my-4 md:h-56 max-md:h-full md:py-4 md:mx-2 flex flex-row max-md:flex-col justify-around  text-primaryText dark:text-darkText ">
-                  <div className="flex flex-col items-center max-md:w-full">
+                <div className="group opacity-80  w-full bg-mainBg dark:bg-containerDark   h-full  flex flex-row max-md:flex-col justify-around  text-primaryText dark:text-darkText ">
+                  <div className="flex flex-col items-center w-full">
                     <h1 className="mb-4 p-2 w-full flex font-semibold max-md:justify-center max-sm:text-2xl text-3xl">
                       {project.name}
                     </h1>
@@ -42,7 +42,7 @@ const Portfolio = () => {
                         return (
                           <button
                             key={index}
-                            className="m-1 max-md:px-2 md:px-4 md:font-semibold rounded-full md:text-indigo-500 "
+                            className="m-1 px-2  rounded-full "
                           >
                             {tech}
                           </button>

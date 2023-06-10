@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
 @keyframes bounce {
   0% {
     transform: scaleX(1);
@@ -43,4 +44,8 @@ span:hover {
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
+}
+
+#name-animation {
+  font-family: "Open Sans", sans-serif;
 }

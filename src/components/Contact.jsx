@@ -6,7 +6,7 @@ const Contact = () => {
       <h1 className="text-4xl mb-8" data-aos="fade-up" data-aos-duration="1000">
         <pre>&lt;contact&gt;</pre>
       </h1>
-      <div className="grid grid-cols-2 md:grid-cols-4 mb-8 wrap w-full">
+      <div className="grid grid-cols-2 md:grid-cols-4  wrap w-full">
         <a
           href="https://www.linkedin.com/in/mateusz-marek-b81272247/"
           target="_blank"

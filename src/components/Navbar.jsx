@@ -33,7 +33,7 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <div className="w-full bg-opacity-70 py-6 max-md:h-24 max-md:sticky absolute max-md:top-0 max-md:dark:bg-mainBgDark z-20 max-md:bg-white">
+    <div className="w-full bg-opacity-70 py-6 max-md:h-24 absolute max-md:top-0 max-md:dark:bg-mainBgDark z-20 max-md:bg-white">
       <div
         className={`max-md:w-screen max-md:h-screen fixed backdrop-blur-md ${
           open ? "visible" : "hidden"
