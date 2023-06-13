@@ -21,6 +21,7 @@ module.exports = {
         linkedin: "#0e76a8",
         github: "#6e5494",
         twitter: "#1DA1F2",
+        secondary: "#6366F1",
       },
 
       keyframes: {
@@ -28,6 +29,17 @@ module.exports = {
           "0%": { opacity: 0, transform: "translateY(20px)" },
           "100%": {
             opacity: 1,
+            transform: "translateY(0px)",
+          },
+        },
+        float: {
+          "0%": { transform: "translateY(0px)" },
+
+          "50%": {
+            transform: "translateY(20px)",
+          },
+
+          "100%": {
             transform: "translateY(0px)",
           },
         },
@@ -39,14 +51,13 @@ module.exports = {
           "0%": { opacity: 0 },
           "100%": { opacity: 1, zIndex: 0 },
         },
-
-  
       },
       animation: {
         fadeIn: "fade-in 1s ease-in-out forwards",
         show: "show 0.5s forwards",
         appear: "appear 0.5s forwards",
         type: "type 1.25s ease-out",
+        float: "float 3s ease-in-out infinite",
       },
     },
   },

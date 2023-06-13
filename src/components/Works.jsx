@@ -44,7 +44,7 @@ export default function Works() {
                     return (
                       <button
                         key={index}
-                        className="m-1 p-2 border-2 rounded-md border-primaryText dark:border-darkText"
+                        className="m-1 text-secondary p-2 border-2 rounded-md border-secondary "
                       >
                         {tech}
                       </button>
