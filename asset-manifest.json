@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-new/static/css/main.03b5a6fe.css",
-    "main.js": "/portfolio-new/static/js/main.ebc71619.js",
+    "main.css": "/portfolio-new/static/css/main.14d6118c.css",
+    "main.js": "/portfolio-new/static/js/main.c7c33890.js",
     "static/media/avatar.png": "/portfolio-new/static/media/avatar.0b62e5c125bcfd42b37b.png",
     "static/media/skillEvolution.png": "/portfolio-new/static/media/skillEvolution.2f681c8f861ef2c61090.png",
     "static/media/Group 1.png": "/portfolio-new/static/media/Group 1.d0bc0f66a4f4b6fde6b5.png",
@@ -13,11 +13,11 @@
     "static/media/html.png": "/portfolio-new/static/media/html.a0c660bb20faf76804d2.png",
     "static/media/javascript.png": "/portfolio-new/static/media/javascript.de1a47d45a1531705a04.png",
     "index.html": "/portfolio-new/index.html",
-    "main.03b5a6fe.css.map": "/portfolio-new/static/css/main.03b5a6fe.css.map",
-    "main.ebc71619.js.map": "/portfolio-new/static/js/main.ebc71619.js.map"
+    "main.14d6118c.css.map": "/portfolio-new/static/css/main.14d6118c.css.map",
+    "main.c7c33890.js.map": "/portfolio-new/static/js/main.c7c33890.js.map"
   },
   "entrypoints": [
-    "static/css/main.03b5a6fe.css",
-    "static/js/main.ebc71619.js"
+    "static/css/main.14d6118c.css",
+    "static/js/main.c7c33890.js"
   ]
 }
